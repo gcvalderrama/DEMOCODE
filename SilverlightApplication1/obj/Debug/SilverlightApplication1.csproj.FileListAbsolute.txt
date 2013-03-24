@@ -1,0 +1,12 @@
+C:\democodefinal\DEMOCODE\SilverlightApplication1\Bin\Debug\SilverlightApplication1.dll
+C:\democodefinal\DEMOCODE\SilverlightApplication1\Bin\Debug\SilverlightApplication1.pdb
+C:\democodefinal\DEMOCODE\SilverlightApplication1\obj\Debug\SilverlightApplication1.csprojResolveAssemblyReference.cache
+C:\democodefinal\DEMOCODE\SilverlightApplication1\obj\Debug\App.g.cs
+C:\democodefinal\DEMOCODE\SilverlightApplication1\obj\Debug\MainPage.g.cs
+C:\democodefinal\DEMOCODE\SilverlightApplication1\obj\Debug\SilverlightApplication1.g.resources
+C:\democodefinal\DEMOCODE\SilverlightApplication1\obj\Debug\SilverlightApplication1.dll
+C:\democodefinal\DEMOCODE\SilverlightApplication1\obj\Debug\SilverlightApplication1.pdb
+C:\democodefinal\DEMOCODE\SilverlightApplication1\Bin\Debug\AppManifest.xaml
+C:\democodefinal\DEMOCODE\SilverlightApplication1\Bin\Debug\SilverlightApplication1.xap
+C:\democodefinal\DEMOCODE\SilverlightApplication1\Bin\Debug\SilverlightApplication1TestPage.html
+C:\democodefinal\DEMOCODE\SilverlightApplication1\obj\Debug\XapCacheFile.xml

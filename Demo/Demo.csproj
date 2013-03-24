@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <SilverlightApplicationList>{23164DBE-27DC-46BB-B6DC-3768567DB437}|..\SilverlightApplication1\SilverlightApplication1.csproj|ClientBin|False</SilverlightApplicationList>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -78,11 +79,15 @@
     <Content Include="App_Themes\Default\StyleSheet1.css" />
     <Content Include="App_Themes\Default\StyleSheet2.css" />
     <Content Include="App_Themes\Default\StyleSheet3.css" />
+    <Content Include="ClientBin\SilverlightApplication1.xap" />
     <Content Include="ClientesController.asmx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
     <Content Include="Private\Privado.aspx" />
+    <Content Include="Silverlight.js" />
+    <Content Include="SilverlightApplication1TestPage.aspx" />
+    <Content Include="SilverlightApplication1TestPage.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />

@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Demo.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+
+    <div>
+            <h1>Mi empresa</h1>
+        <asp:ContentPlaceHolder ID="BodyZone" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <asp:ContentPlaceHolder ID="JsPlace" runat="server">
+    </asp:ContentPlaceHolder>    
+    </form>
+
+</body>
+</html>
