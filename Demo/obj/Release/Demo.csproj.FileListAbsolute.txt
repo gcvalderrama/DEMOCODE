@@ -1,0 +1,5 @@
+C:\DemoCode\Demo\Demo\bin\Demo.dll
+C:\DemoCode\Demo\Demo\bin\Demo.pdb
+C:\DemoCode\Demo\Demo\obj\Release\Demo.dll
+C:\DemoCode\Demo\Demo\obj\Release\Demo.pdb
+C:\DemoCode\Demo\Demo\obj\Release\Demo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,17 @@
+C:\DemoCode\Demo\Demo\bin\Demo.dll
+C:\DemoCode\Demo\Demo\bin\Demo.pdb
+C:\DemoCode\Demo\Demo\obj\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\DemoCode\Demo\Demo\obj\Debug\Demo.dll
+C:\DemoCode\Demo\Demo\obj\Debug\Demo.pdb
+C:\DemoCode\Demo\Demo\bin\Newtonsoft.Json.dll
+C:\DemoCode\Demo\Demo\bin\System.Net.Http.dll
+C:\DemoCode\Demo\Demo\bin\System.Net.Http.Formatting.dll
+C:\DemoCode\Demo\Demo\bin\System.Net.Http.WebRequest.dll
+C:\DemoCode\Demo\Demo\bin\System.Web.Http.dll
+C:\DemoCode\Demo\Demo\bin\System.Web.Http.WebHost.dll
+C:\DemoCode\Demo\Demo\bin\Newtonsoft.Json.xml
+C:\DemoCode\Demo\Demo\bin\System.Net.Http.xml
+C:\DemoCode\Demo\Demo\bin\System.Net.Http.Formatting.xml
+C:\DemoCode\Demo\Demo\bin\System.Net.Http.WebRequest.xml
+C:\DemoCode\Demo\Demo\bin\System.Web.Http.xml
+C:\DemoCode\Demo\Demo\bin\System.Web.Http.WebHost.xml
