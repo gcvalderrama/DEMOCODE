@@ -12,6 +12,15 @@ namespace Demo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            if (Page.IsPostBack)
+            {
+                if (ScriptManager.GetCurrent(this).IsInAsyncPostBack)
+                {
+ 
+                }
+            }
+
             
         }
 

@@ -11,7 +11,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <asp:ScriptManager runat="server" >
+    <asp:ScriptManager runat="server">
         <Services>
             <asp:ServiceReference Path="~/ClientesController.asmx" />
         </Services>
@@ -26,6 +26,9 @@
 
         <button id="btnsay" type="button" > Click </button>
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://malsup.github.com/jquery.blockUI.js"></script>
+
+        
     <script  type="text/javascript">
 
         var WebForm1presenter = {
@@ -62,13 +65,14 @@
         }
         demo(new Date());
     </script>    
-        <asp:UpdatePanel runat="server">
+        <asp:UpdatePanel runat="server" UpdateMode="Conditional">
             <ContentTemplate>
                      <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                      <asp:Button ID="Button1" Text="gettime"  runat="server" OnClick="Unnamed2_Click" />
                      
             </ContentTemplate>
         </asp:UpdatePanel>
+      
 
         <div> 
             <iframe width="560" height="315" src="http://www.youtube.com/embed/s9o3PaDzwGk?rel=0&autoplay=1" 
@@ -76,14 +80,41 @@
         </div>
 
     <script>
+        Sys.Application.add_init(function () {          
+            Sys.Debug.trace("init event");  
+        });
+        Sys.Application.add_load(function () {
+            Sys.Debug.trace("load event");
+        });
+
+        $(document).ajaxSend(function (event, request, settings) {
+            
+        
+
+           
+        });
+        $(document).ajaxComplete(function (event, request, settings) {
+            
+            
+        });
+
+
         $(document).ready(function () {
             $("#btnsay").on("click", function () {
                 
+                $.blockUI({ message: '<h1> ' + "load data " + ' </h1>' });
                 var def = $.get('http://localhost:37264/api/ClientesWAPI');
                 def.done(function (data) {                    
                     $("#panel").html(JSON.stringify(data));
-
                 })
+
+                def.fail(function () {
+                    alert('error');
+                });
+
+                def.always(function () {
+                    $.unblockUI();
+                });
                 
                 //Demo.ClientesController.GetClientes(function (data) {
                     
