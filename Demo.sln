@@ -26,6 +26,9 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite6", "http://localhos
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightApplication1", "SilverlightApplication1\SilverlightApplication1.csproj", "{23164DBE-27DC-46BB-B6DC-3768567DB437}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F105E10-28C2-4E68-B1B1-282CD6716D3A} = {1F105E10-28C2-4E68-B1B1-282CD6716D3A}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Documents;
@@ -34,6 +35,24 @@ namespace SilverlightApplication1
             {
                 source.Start();
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var proxy = new DemoProxy.ClientesControllerSoapClient();
+            proxy.GetClientesCompleted += proxy_GetClientesCompleted;
+            proxy.GetClientesAsync(); 
+        }
+
+        void proxy_GetClientesCompleted(object sender, DemoProxy.GetClientesCompletedEventArgs e)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (var item in e.Result)
+            {
+                sb.Append(item);  
+                
+            }
+            this.txtresult.Text = sb.ToString(); 
         }
     }
 }
